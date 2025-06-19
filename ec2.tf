@@ -7,6 +7,6 @@ resource "aws_instance" "MyInstance" {
 
   tags = {
 Name = "MyWebServer"
-    Environment = "QA"
+    Environment = "QA and Dev"
   }
 }
